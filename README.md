@@ -1,7 +1,6 @@
-# DevSecOps Banking Application
-
 <div align="center">
 
+# DevSecOps Banking Application
 
 A robust, containerized banking application built on Spring Boot 3 and Java 21. This project demonstrates modern financial software architecture, integrating Java's virtual threads for high concurrency, a contextual AI assistant for user engagement, and integrated DevSecOps practices for security and observability.
 
