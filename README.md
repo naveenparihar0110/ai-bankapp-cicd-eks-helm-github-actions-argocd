@@ -105,7 +105,7 @@ Automate your Ollama server setup by running this script on your **AI Tier EC2**
 
 ```bash
 # Download and run the automation script
-curl -fsSL https://raw.githubusercontent.com/<OWNER>/<REPO>/main/scripts/ollama-setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Amitabh-DevOps/DevSecOps-Bankapp/devsecops/scripts/ollama-setup.sh | bash
 ```
 *This script installs Ollama, enables external access (0.0.0.0), and pulls the `tinyllama` model.*
 
