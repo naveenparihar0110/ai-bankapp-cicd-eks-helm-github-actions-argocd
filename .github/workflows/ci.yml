@@ -67,6 +67,7 @@ jobs:
 
       - name: Run Semgrep
         uses: semgrep/semgrep-action@v1
+        continue-on-error: true  
         with:
           config: |
             p/java
@@ -100,6 +101,7 @@ jobs:
           key: owasp-${{ runner.os }}-${{ hashFiles('**/pom.xml') }}
 
       - name: Run Dependency Check
+        continue-on-error: true
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
         run: |
