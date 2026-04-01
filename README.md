@@ -316,11 +316,3 @@ All scan reports (OWASP, Trivy, ZAP) are uploaded as downloadable **Artifacts** 
   ![ollama-success](screenshots/18.png)
 
 ---
-
-<div align="center">
-
-Happy Learning
-
-**TrainWithShubham**  
-
-</div>
