@@ -34,3 +34,12 @@ build/
 
 ### Claude ###
 CLAUDE.md
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive files
+*.tfvars
